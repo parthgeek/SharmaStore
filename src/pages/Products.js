@@ -1,8 +1,9 @@
+import React from "react";
 import styled from "styled-components";
-import FilterSection from "./components/FilterSection";
-import ProductList from "./components/ProductList";
-import Sort from "./components/Sort";
-//import { useFilterContext } from "./context/filter_context";
+import FilterSection from "../components/others/FilterSection";
+import ProductList from "../components/Product/ProductList";
+import Sort from "../components/others/Sort";
+import { useFilterContext } from "../context/filter_context";
 
 const Products = () => {
   return (

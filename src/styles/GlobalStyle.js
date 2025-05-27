@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+ export const GlobalStyle = createGlobalStyle`
 
 * {
   margin: 0;
@@ -121,7 +121,7 @@ ${"" /* resuable code section  */}
      .intro-data {
       margin-bottom: 0;
       text-transform: uppercase;
-      color: #5138ee;
+      color:rgb(5, 4, 4);
     }
 
    .caption {
@@ -157,7 +157,7 @@ input, textarea{
     cursor: pointer;
     }
 
-@media (max-width: ${({ theme }) => theme.media.tab}) {
+ @media (max-width: ${({ theme }) => theme.media.tab}) {
     .container {
     max-width: 130rem;
     padding: 0 3.2rem;
@@ -178,3 +178,4 @@ input, textarea{
     }
 
 `;
+export default GlobalStyle;
