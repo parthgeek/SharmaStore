@@ -1,42 +1,15 @@
-# SharmaStore 🛍️
+# `create-preact`
 
-SharmaStore is a modern e-commerce web application built using React for the frontend, Redux for state management (including cart functionality), and Supabase for authentication and backend storage. Styled Components is used for writing scoped CSS styles in JavaScript.
+<h2 align="center">
+  <img height="256" width="256" src="./src/assets/preact.svg">
+</h2>
 
-## 🌟 Features
+<h3 align="center">Get started using Preact and Vite!</h3>
 
-- 🔐 User Authentication (Sign Up / Sign In / Email Verification) with Supabase
-- 🛒 Fully functional shopping cart using Redux
-- 🎨 Styled with Styled Components
-- 📦 Product listing and dynamic cart updates
-- ⚙️ Backend handled via Supabase (real-time database + auth)
+## Getting Started
 
-## 📸 Demo
+-   `npm run dev` - Starts a dev server at http://localhost:5173/
 
-[Live Demo](#) *(Add your deployed link here)*
+-   `npm run build` - Builds for production, emitting to `dist/`
 
-## 🚀 Technologies Used
-
-- **Frontend**: React, Redux
-- **Backend**: Supabase (Authentication + Database)
-- **Styling**: Styled Components
-- **State Management**: Redux Toolkit
-
-## 📁 Folder Structure
-
-sharma-store/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── redux/
-│ ├── styles/
-│ ├── App.js
-│ └── index.js
-├── .env
-├── package.json
-└── README.md
-
-
-
-
-
+-   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
